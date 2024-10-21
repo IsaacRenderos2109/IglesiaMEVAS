@@ -230,8 +230,12 @@ footer {
 }
 
 .social-links li {
-    display: inline;
-    margin-right: 10px;
+    margin-bottom: 10px; /* Espaciado entre los elementos */
+}
+
+.social-links img {
+    display: inline-block; /* Asegura que la imagen esté en línea con el texto */
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
 }
 
 footer p {
@@ -263,6 +267,8 @@ footer .footer-section a:hover {
     text-align: center;
     margin: 20px 0;
 }
+
+
 
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {
@@ -303,7 +309,7 @@ footer .footer-section a:hover {
     display: none;
     font-size: 24px;
     cursor: pointer;
-    color: #033E8C; /* Usa uno de tus colores preferidos */
+    color: #F2F2F2; /* Usa uno de tus colores preferidos */
 }
 
 /* Menú de navegación */
@@ -357,7 +363,7 @@ nav ul li a {
 /*Carrusel*/
 /* Contenedor del carrusel */
 .carousel {
-    position: relative;
+    position: relate;
     max-width: 100%;
     overflow: hidden;
 }
@@ -382,16 +388,16 @@ nav ul li a {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
 }
 
 .carousel-button.prev {
-    left: 10px;
+    left: 50px;
 }
 
 .carousel-button.next {
-    right: 10px;
+    right: 100px;
 }
 
 /* Responsivo */
@@ -403,7 +409,7 @@ nav ul li a {
 
 .carousel {
     width: 100%;
-    max-width: 600px; /* Ajusta el tamaño máximo del carrusel */
+    max-width: 175px; /* Ajusta el tamaño máximo del carrusel */
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -419,3 +425,4 @@ nav ul li a {
     width: 100%;
     flex-shrink: 0;
 }
+
